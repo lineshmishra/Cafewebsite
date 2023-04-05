@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+.main{
+    width: 100%;
+
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+    height: 80px;
+    line-height: 80px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo img{
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s all ease;
+}
+
+ul{
+    margin: 0px;
+    margin-right: 100px;
+    
+}
+ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+ul li a:hover{
+    color: goldenrod;
+
+}
+.header{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images1/Cafe-Wallpapers-HD-1920x1080.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: goldenrod;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.188);
+}
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    padding: 0px 50px;
+    font-size: 20px;
+}
+
+button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: black;
+    color: goldenrod;
+}
